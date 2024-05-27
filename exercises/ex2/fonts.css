@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "RubikMonoOne";
+    src: url(fonts/RubikMonoOne-Regular.ttf) format(truetype);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-Regular.ttf)
+}
+
+@font-face{
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}

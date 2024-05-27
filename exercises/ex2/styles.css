@@ -1,0 +1,73 @@
+body {
+    background: #0b0b0b;
+    margin: 0;
+}
+
+.card{
+    background-color: #333533;
+    width: 50vw;
+    height: 140vh;
+    margin: auto;
+    border-radius: 40px 40px 0 0;
+    margin-top: 60px;
+    margin-bottom: 0;
+    box-shadow: 0 0 20px 0 #f5cb5c;
+    padding: 60px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'RubikMonoOne';
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #CD9C20;
+    text-shadow: 0 0 20px;
+}
+
+.image{
+    background-image: url(https://www.formulafutbol.com/wp-content/uploads/2024/05/CR7-Ronaldo.jpg);
+    width: 25vh;
+    height: 25vh;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    border-width: 5px;
+    border-color: #CD9C20;
+    border-style: solid;
+    box-shadow: 0 0 20px 0 #000
+}
+
+.content{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    margin: 0 40px;
+    font-size: 20px;
+    color: #f2ecdd;
+    text-shadow: 0 0 5px;
+}
+
+.image2{
+    margin: auto;
+    margin-top: 40px;
+    background-image: url(https://cdn2.mediotiempo.com/uploads/media/2021/08/27/cristiano-ronaldo-gano-champions-red.jpg);
+    height: 500px;
+    width: 40vw;
+    background-attachment: fixed;
+    background-color: #000f;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 200px;
+    border-radius: 20px;
+}
+
+#opaco{
+    width: 40vw;
+    height: 500px;
+    background-color: #000a;
+    border-radius: 20px;
+}
