@@ -22,3 +22,9 @@
     font-style: italic;
     font-weight: 900;
 }
+
+@font-face {
+    font-family: "RubikMonoOne";
+    src: url(fuentes/RubikMonoOne-Regular.ttf);
+    font-weight: 900;
+}
