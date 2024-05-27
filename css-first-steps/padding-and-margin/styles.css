@@ -1,0 +1,20 @@
+.formulario{
+    background-color: #5D5E59;
+    width: 700px;
+    height: 100px;
+    padding: 10px;
+}
+
+.formulario_inputs{
+    width: 50%;
+    color: #FFCDAC;
+    background-color: #5D5E59;
+    border-color: #FFA45D;
+    margin: 10px 0 0 120px
+}
+
+.formulario_submit{
+    width: 20%;
+    font-style: italic;
+    margin-left: 235px;
+}
