@@ -1,0 +1,33 @@
+body {
+    background-color: #1B2727
+}
+
+.container{
+    background-color: #3c5148;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.nombre{
+    font-family: Abril FatFace;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #B2C5B2;
+    font-weight: 400;
+    font-size: 40px;
+    padding: 1px;
+    margin: 1px;
+}
+
+.dec{
+    font-family: Abril FatFace;
+    font-style: italic;
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-top:10px;
+    text-align: center;
+    color: #6B8E4E;
+}
