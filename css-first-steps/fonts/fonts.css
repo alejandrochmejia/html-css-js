@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Danfo";
+    src: url(fuentes/Danfo-Regular.ttf) format("truetype");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fuentes/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fuentes/Montserrat-Black.ttf) format("truetype");
+    font-weight: 900;
+}
