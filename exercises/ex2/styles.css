@@ -55,19 +55,19 @@ body {
     margin: auto;
     margin-top: 40px;
     background-image: url(https://cdn2.mediotiempo.com/uploads/media/2021/08/27/cristiano-ronaldo-gano-champions-red.jpg);
-    height: 500px;
+    height: 40vw;
     width: 40vw;
     background-attachment: fixed;
     background-color: #000f;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 200px;
+    background-position-y: 4vh;
     border-radius: 20px;
 }
 
 #opaco{
     width: 40vw;
-    height: 500px;
+    height: 40vw;
     background-color: #000a;
     border-radius: 20px;
 }

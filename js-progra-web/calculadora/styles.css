@@ -1,0 +1,20 @@
+.calc-body{
+    background-color: #DDD;
+    width: 20vw;
+    height: 30vw;
+    margin: auto;
+    border-radius: 20px 20px 20px 20px;
+    border-width: 5px;
+    border-color: #EEE;
+    border-style: solid;
+}
+
+.resultado{
+    width: 80%;
+    height: 10%;
+    margin-top: 10%;
+    margin-left: 9%;
+    border-width: 0;
+    border-radius: 15px;
+    background-color: #FFF;
+}
