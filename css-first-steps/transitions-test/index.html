@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+        cursor: pointer;
+      }
+      
+      .container div {
+        width: 100px;
+        height: 100px;
+        background-color: purple;
+      }
+      
+      .transform{
+        will-change: transform;
+        transition: transform 10s;
+      }
+      
+      .margin{
+        /* will-change: margin-left; */
+        transition: margin 10s;
+      }
+      
+      .container:hover .transform{
+        transform: translateX(200px);
+      }
+      
+      .container:hover .margin{
+        margin-left: 200px;
+      }
+      </style>
+    <title>Prueba</title>
+</head>
+<body>
+    <h2>Coloca el cursor sobre el ejercicio</h2>
+<div class="container">
+  <h3>Propiedad transform - Recomendable</h3>
+<div class="transform"></div>
+<h3>Propiedad margin - No recomendable</h3>
+<div class="margin"></div>
+</div>
+</body>
+</html>
