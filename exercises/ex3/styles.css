@@ -12,10 +12,11 @@ form{
 }
 
 fieldset{
-    width: 10%;
-    height: 50%;
-    margin: 80px 0px;
+    width: 50%;
+    height: 100%;
     margin: auto;
+    margin-top: 1%;
+    border-radius: 8px;
 }
 
 input{
@@ -23,4 +24,8 @@ input{
     color: azure;
     border-color: azure;
     border-radius: 5px;
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
 }
