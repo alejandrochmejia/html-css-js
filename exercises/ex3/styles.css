@@ -1,0 +1,26 @@
+body{
+    height: 100%;
+    background-color: #333;
+    color: azure;
+}
+
+form{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+fieldset{
+    width: 10%;
+    height: 50%;
+    margin: 80px 0px;
+    margin: auto;
+}
+
+input{
+    background-color: #333;
+    color: azure;
+    border-color: azure;
+    border-radius: 5px;
+}

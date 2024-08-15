@@ -2,25 +2,21 @@
 <html>
     <head>
         <title>Formulario</title>
-        <script>
-            $(function() {
-                $('input[type=number]').keypress(function(key) {
-                    if(key.charCode < 48 || key.charCode > 57) return false;
-                });
-            });
-        </script>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <form>
             <fieldset>
-                <legend>INFO</legend>
+                <legend>Informacion Personal</legend>
                 <input type="text" placeholder="Nombre">
                 <input type="text" placeholder="Apellido">
                 <input type="number" placeholder="Edad">
             </fieldset>
-            <input type="email" placeholder="Correo Electronico">
-            <input type="text" placeholder="telefono">
+            <fieldset>
+                <legend>Informacion de contacto</legend>
+                <input type="email" placeholder="Correo Electronico">
+                <input type="text" placeholder="telefono">
+            </fieldset>
         </form>
     </body>
 </html>
