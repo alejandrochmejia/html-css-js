@@ -14,22 +14,21 @@
         background-color: purple;
       }
       
+      .margin{
+        transition: margin 5s;
+      }
+
+      .margin:hover{
+        margin-left: 200px;
+      }
+
       .transform{
         will-change: transform;
-        transition: transform 10s;
+        transition: transform 5s;
       }
-      
-      .margin{
-        /* will-change: margin-left; */
-        transition: margin 10s;
-      }
-      
-      .container:hover .transform{
+
+      .transform:hover{
         transform: translateX(200px);
-      }
-      
-      .container:hover .margin{
-        margin-left: 200px;
       }
       </style>
     <title>Prueba</title>
