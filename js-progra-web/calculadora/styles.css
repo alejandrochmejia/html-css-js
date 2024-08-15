@@ -66,7 +66,13 @@ body{
 
 .especiales{
     background-color: rgba(255, 153, 0, 0.693);
-    color: #ffffff;
+    color: #ffffff; 
+    transition: all 0.1s linear;
+}
+
+.especiales:hover{
+    background-color: rgba(254, 175, 57, 0.693);
+    scale: 1.1;
 }
 
 .cero{
@@ -76,4 +82,8 @@ body{
 
 .igual{
     background-color: rgba(249, 83, 0, 0.773);
+}
+
+.igual:hover{
+    background-color: rgba(245, 117, 54, 0.773);
 }
